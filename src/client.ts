@@ -105,7 +105,7 @@ export class FilloutClient {
     );
   }
 
-  createSubmissions(formId: string, submissions: NewSubmission[]) {
+  async createSubmissions(formId: string, submissions: NewSubmission[]) {
     if (submissions.length < 1 || submissions.length > 10) {
       throw new Error("Fillout accepts between 1 and 10 submissions per request.");
     }
