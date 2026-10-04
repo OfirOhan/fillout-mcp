@@ -79,7 +79,7 @@ npm install
 npm test   # builds, runs unit tests and an end-to-end MCP stdio test against a fake Fillout API
 ```
 
-The tests run on Node 18, 20 and 22 in CI.
+The tests run on Node 20, 22 and 24 in CI.
 
 ## Notes & limits
 

@@ -10,9 +10,9 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "test": "npm run build && node --test test/"
+    "test": "npm run build && node --test test/client.test.mjs test/stdio.test.mjs"
   },
-  "engines": { "node": ">=18" },
+  "engines": { "node": ">=20" },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.17.5",
     "zod": "3.25.76"
